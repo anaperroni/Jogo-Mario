@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b30000;
+}
+
+header{
+    background-color: #dddddd;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pontos{
+    background-color: #61B1EA;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 700px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pontos img{
+    margin-right: 15px;
+}
+
+#nomeJogo{
+    font-weight: bolder;
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+section#corpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+
+section#corpo div#direita{
+    width: 40%;
+}
+
+section#corpo div#esquerda{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin-left: 10px;
+}
+
+section#corpo div#esquerda div#cor-atual{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    border-radius: 15px;
+}
+
+#btn-responder{
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 15px 45px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#rodape{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
